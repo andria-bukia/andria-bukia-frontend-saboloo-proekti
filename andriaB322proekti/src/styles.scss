@@ -1,0 +1,82 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://restaurant.stepprojects.ge/images/cart_bg.jpg");
+}
+@media only screen and (max-width: 500px) {
+    .yvela{
+        height: auto;
+        width: 70px;
+    }
+    body{
+        width: 466px;
+    }
+    .ochopindre{
+        background-size:  1002px; 
+        width: 100%;
+    }
+    .aTag{
+        font-size: 30px;
+    }
+    .flextape{
+        display: grid;
+    grid-template-columns: auto auto;
+    // margin: 20px;
+    gap: 10px;
+    }
+    .rox{
+        height: 80px;
+        width: 70px;
+    }
+
+    .rox img{
+        height: 30px;
+        width: 50px;
+    }
+    .boiki{
+        height: 10px;
+        width: 20px;
+    }
+    .inputi{
+        display: none;
+    }
+    .yvelaa{
+        display: flex;
+        flex-direction: column;
+    }
+    .brtyeli{
+        width: 70px;
+    }
+    .aato{
+        font-size: 7px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .imigi{
+        height: 70px;
+        width: 90px;
+    }
+    .dodoo{
+        font-size: 10px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .flextape{
+        gap: 3px;
+    }
+    
+  }
